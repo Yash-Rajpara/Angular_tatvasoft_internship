@@ -17,8 +17,13 @@ export class AdminsideServiceService {
     public router: Router
   ) {}
   // apiUrl:string='http://localhost:63943/api';
+<<<<<<< HEAD
   apiUrl: string = 'http://localhost:5140/api';
   imageUrl: string = 'http://localhost:5140';
+
+  apiUrl: string = 'http://localhost:56577/api';
+  imageUrl: string = 'http://localhost:56577';
+>>>>>>> e8bf45f7a58f943f23b14da837ee1278204d06e4
 
   //User
   UserList(): Observable<any[]> {

@@ -8,8 +8,13 @@ import { BehaviorSubject } from 'rxjs';
 export class CommonService {
 
   constructor(private http:HttpClient) { }
+<<<<<<< HEAD
   apiUrl:string='http://localhost:5140/api';
   imageUrl:string='http://localhost:5140';
+=======
+  apiUrl:string='http://localhost:56577/api';
+  imageUrl:string='http://localhost:56577';
+>>>>>>> e8bf45f7a58f943f23b14da837ee1278204d06e4
   searchList : BehaviorSubject<any> = new BehaviorSubject<any>('');
 
   GetMissionCountryList(){
